@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Tagbanwa&family=Roboto:wght@100;300;400;700;900&display=swap");
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*::-webkit-scrollbar {
+    display: none;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0b132b;
+    box-shadow: 0px 0px 10px #0b132b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    border: 1px solid black;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+}
+.svg {
+    border: 1px solid black;
+    color: #ffe1a8;
+    padding: 2px;
+    font-size: 3rem;
+}
+.navbar h1 {
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    color: #ffe1a8;
+    width: 40%;
+}
+.main-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    padding: 5px;
+}
+
+.nav-link {
+    color: #faf3dd;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+}
+.nav-link:hover {
+    color: #ffe45e;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* NewsItems */
+.newsItem {
+    border: 1px solid grey;
+    box-shadow: 3px 3px 3px rgb(221, 219, 219);
+    border-radius: 5px;
+    width: 400px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.newsItem img {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.newsItem h3 {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+}
+.newsItem p {
+    font-family: "Roboto", sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 0.3px;
+}
+.newsItem a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgb(216, 216, 216);
+}
+.newsItem button {
+    margin: 1rem;
+    border: none;
+    background-color: #0b132b;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.newsItem a:hover {
+    color: #5853ff;
+}
+
+/* Headline */
+#heading {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 3rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn1 {
+    margin: 0 1rem;
+    border: none;
+    background-color: #0b132b;
+    padding: 10px;
+    color: #faf3dd;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn1:hover {
+    color: #ffe45e;
+}
+.mobile-menu-icon {
+    margin: 10px;
+    font-size: 1.9rem;
+    border: none;
+    color: #ffe1a8;
+    display: none;
+    background-color: #0b132b;
+}

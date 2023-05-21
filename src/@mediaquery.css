@@ -1,0 +1,34 @@
+@media screen and (max-width: 870px) {
+    .main-link {
+        display: none;
+    }
+    .navbar h1 {
+        width: 90%;
+    }
+    .main-link-mobile {
+        position: absolute;
+        background-color: rgb(232, 221, 232);
+        top: 3rem;
+        transition: all 2s;
+        width: 100%;
+        min-height: 20vh;
+    }
+    .mobile-menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+    .nav-link {
+        display: flex;
+        flex-direction: column;
+        color: #0b132b;
+        text-align: center;
+        padding: 8px;
+        margin-top: 1rem;
+    }
+    .nav-link:hover {
+        color: blue;
+    }
+    #heading {
+        font-size: 2rem;
+    }
+}
